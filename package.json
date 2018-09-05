@@ -1,0 +1,12 @@
+{
+  "name": "armijo_prep",
+  "version": "0.1.0",
+  "repo": "hcnn/armijo_prep",
+  "description": "Preprocessing for Armijo (1st Wolfe) condition",
+  "keywords": ["armijo condition", "wolfe condition", "line search"],
+  "license": "MIT",
+  "src": ["armijo_prep.c", "armijo_prep.h"],
+  "dependencies": {
+    "hcnn/multiply_dot": "0.1.0"
+  }
+}
